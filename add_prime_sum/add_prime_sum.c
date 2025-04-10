@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <stdlib.h>
 
 void	ft_putchar(char c)
 {
@@ -21,9 +22,6 @@ void	ft_putnbr(int nbr)
 		ft_putnbr(nbr / 10);
 	ft_putchar(nbr % 10 + '0');
 }
-
-int	ft_atoi(char *str)
-{
 
 int	main(int argc, char **argv)
 {

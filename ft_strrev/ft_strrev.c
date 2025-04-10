@@ -1,4 +1,3 @@
-
 char	*ft_strrev(char *str)
 {
 	char	tmp;

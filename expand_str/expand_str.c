@@ -14,7 +14,7 @@ int	main(int argc, char **argv)
 			if (!ft_isspace(argv[1][i]))
 			{
 				if (space == 1)
-					write(1, " ", 1);
+					write(1, "   ", 3);
 				space = 0;
 				write(1, &argv[1][i], 1);
 			}
