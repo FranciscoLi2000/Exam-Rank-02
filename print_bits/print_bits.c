@@ -6,7 +6,6 @@ void	print_bits(unsigned char octet)
 	int			i;
 
 	i = 8;
-	bit = 0;
 	while (i--)
 	{
 		bit = (octet >> i & 1) + 48;

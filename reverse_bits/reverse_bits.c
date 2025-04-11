@@ -3,7 +3,6 @@ unsigned char	reverse_bits(unsigned char octet)
 	unsigned char	result;
 	unsigned int	i;
 
-	result = 0;
 	i = 8;
 	while (i--)
 	{

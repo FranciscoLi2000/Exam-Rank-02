@@ -1,12 +1,25 @@
 #include <unistd.h>
 
+void	*ft_memset(void *s, int c, unsigned int n)
+{
+	unsigned int	i;
+
+	i = 0;
+	while (i < n)
+	{
+		((char *)s)[i] = c;
+		i++;
+	}
+	return (s);
+}
+
 int	main(int argc, char **argv)
 {
 	int	i;
 	int	j;
-	int	lookup[256];
+	int	lookup[256] = {};
 
-	memset(lookup, '0');
+/*	ft_memset((int*)lookup, '0', 256);*/
 	if (argc == 3)
 	{
 		i = 0;

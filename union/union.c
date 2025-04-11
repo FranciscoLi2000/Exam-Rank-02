@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 			if (!used[argv[2][j]])
 			{
 				write(1, &argv[2][j], 1);
-				used[2][j] = 1;
+				used[argv[2][j]] = 1;
 			}
 			j++;
 		}
